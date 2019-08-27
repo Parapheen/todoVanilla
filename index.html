@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Petrovich learns js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>This is me learning js!</h1>
+    <h2>This is a todo List</h2>
+    <div>
+        <button onclick = "handlers.toggleAll()">Toggle all</button>
+    </div>
+    <div>
+        <button onclick = "handlers.addTodo()">Add</button>
+        <input type="text" id = "addTodoInputText">
+    </div>
+    <div>
+        <button onclick="handlers.changeTodo()">Change Todo</button>
+        <input type="number" id = "changeTodoInputPosition">
+        <input type="text" id = "changeTodoInputText">
+    </div>
+    <div>
+        <ol>
+        </ol>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,24 @@
+h1 {
+    color: cornflowerblue;
+}
+
+body {
+    font-family: "SF UI Display", sans-serif;
+}
+
+button{
+    color: ivory;
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+.deleteButton {
+    margin-left: 10px;
+    background-color: lightpink;
+}
+
+.completedButton {
+    margin-left: 10px;
+    background-color: lightgreen;
+}
+
